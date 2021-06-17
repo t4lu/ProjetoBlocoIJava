@@ -10,7 +10,7 @@ public class condicionalGen extends genero{
 		do {
 		if(objeto.getGenero() == 1) {
 			System.out.println("============================================");
-			System.out.println("Perfeito. Você se identifica como homem cis!");
+			System.out.println("Perfeito. VocÃª se identifica como homem cis!");
 			System.out.println("============================================");
 			
 			
@@ -26,12 +26,12 @@ public class condicionalGen extends genero{
 		}
 		else if(objeto.getGenero() == 4) {
 			System.out.println("============================================");
-			System.out.println("Perfeito. Você se identifica como mulher trans!");
+			System.out.println("Perfeito. VocÃª se identifica como mulher trans!");
 			System.out.println("============================================");
 		}
 		else if(objeto.getGenero() == 5) {
 			System.out.println("============================================");
-			System.out.println("Perfeito. Você se identifica como Não Binárie!");
+			System.out.println("Perfeito. VocÃª se identifica como NÃ£o BinÃ¡rie!");
 			System.out.println("============================================");
 		}
 		else if (objeto.getGenero() == 6) {
@@ -41,12 +41,12 @@ public class condicionalGen extends genero{
 		}
 		else{
 			System.out.println("=========================");
-			System.out.println("Digite uma opção valida!");
+			System.out.println("Digite uma opÃ§Ã£o valida!");
 			System.out.println("=========================");
 			condGen(objeto);
 			}	
 		
-		}while(objeto.getGenero() == 0);// precisa voltar pras opÃ§Ãµes
+		}while(objeto.getGenero() == 0);
 		
 	}
 }
