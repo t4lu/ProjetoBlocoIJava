@@ -8,7 +8,7 @@ public class Regiao extends informacoesPs{
 	public  void Regiao() {
 
 
-	System.out.println("Em qual região de São Paulo você mora?");
+	System.out.println("Em qual regiÃ£o de SÃ£o Paulo vocÃª mora?");
 	String  string [] = new String [4];
 	
 	
@@ -27,16 +27,16 @@ public class Regiao extends informacoesPs{
 	setReg(sc.nextInt());
 	
 	if(getReg()==1) {
-		System.out.println("Se dirija a uma unidade de saúde mais próxima com o código abaixo: ");
+		System.out.println("Se dirija Ã  uma unidade de saÃºde mais prÃ³xima com o cÃ³digo abaixo: ");
 		System.out.println(string[0]);
 	}else if(getReg() == 2) {
-		System.out.println("Se dirija a uma unidade de saúde mais próxima com o código abaixo: ");
+		System.out.println("Se dirija Ã  uma unidade de saÃºde mais prÃ³xima com o cÃ³digo abaixo: ");
 		System.out.println(string[1]);
 	}else if (getReg() == 3){
-		System.out.println("Se dirija a uma unidade de saúde mais próxima com o código abaixo: ");
+		System.out.println("Se dirija Ã  uma unidade de saÃºde mais prÃ³xima com o cÃ³digo abaixo: ");
 		System.out.println(string[2]);
 	}else {
-		System.out.println("Se dirija a uma unidade de saúde mais próxima com o código abaixo: ");
+		System.out.println("Se dirija Ã  uma unidade de saÃºde mais prÃ³xima com o cÃ³digo abaixo: ");
 		System.out.println(string[3]);
 		
 	
