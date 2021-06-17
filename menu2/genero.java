@@ -4,7 +4,7 @@ public class genero extends informacoesPs{
 	
 	public void indiceGenero() {
 		
-		System.out.println("\nQual gênero você se identifica?");		
+		System.out.println("\nQual gÃªnero vocÃª se identifica?");		
 		int [] genero = new int [6];
 		
 				
@@ -12,7 +12,7 @@ public class genero extends informacoesPs{
 		System.out.println("[2] ---> Mulher cis\n");
 		System.out.println("[3] ---> Homem trans\n");
 		System.out.println("[4] ---> Mulher trans\n");
-		System.out.println("[5] ---> Não Binário\n");
+		System.out.println("[5] ---> NÃ£o BinÃ¡rie\n");
 		System.out.println("[6] ---> Outros\n");
 		
 	}
